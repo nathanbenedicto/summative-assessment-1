@@ -1,4 +1,4 @@
-# summatve-assessment-1
+# summative-assessment-1
 Summative Assessment 1 for ENGG 21
 ## INSTRUCTIONS:
 
