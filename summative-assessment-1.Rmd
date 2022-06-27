@@ -1,36 +1,73 @@
 ---
-title: "summative-assessment-1"
+title: "Summative-Assessment-1"
 author: Nathaniel Benedicto, Maxine Van Caparas, Kyle Aaron Coloma, Marco Luis Coros,
   Derrik Kyler Mendoza
 date: '2022-06-27'
-output: html_document
+output: 
+  html_document:
+    theme: cerulean
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<style>
+body {
+text-align: justify}
+</style> 
 
-## R Markdown
+## Monty Hall
 
-<<<<<<< HEAD
-=======
+<font size="4">
 
-<iframe src="https://drive.google.com/file/d/1GyTLZxwkWFRkbSyUHgtwwS9pH8tKRBww/preview" width="640" height="480" allow="autoplay"></iframe>
+<img src="https://miro.medium.com/max/810/0*kfKR-PXmsaWdvtZC.jpg" width="100%" height="100%"/>
 
->>>>>>> This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+&nbsp;
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+The Monty Hall problem is a paradoxical problem in conditional probability and reasoning using Bayes' theorem [1]. The problem is named after the original host Monty Hall. From the famous television game show from the 1950s to 1980s, Let’s Make a Deal [2] 
 
-```{r cars}
-summary(cars)
-```
+To understand how the Monty Hall problem works, let's look how it is set up:
 
-## Including Plots
+<img src="https://static.tvtropes.org/pmwiki/pub/images/ao5z6.png" width="100%" height="100%"/>
 
-You can also embed plots, for example:
+Imagine you are on a gameshow. There are 3 doors, behind which are two goats and a car.
+You pick a door (call it door 1), but you do not open it. The game show host opens one of the other two doors (doors 2 and 3) and reveals a goat.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+**Question:** Do you stick with door A, which was your original guess, or switch to the unopened door? 
+
+One may think that the odds are 50-50, but if you switch doors, you’ll win ⅔ of the time!
+
+If you stick with your first choice, you can’t improve your chances. Remember that two choices are only 50-50 if it’s random and you don’t know anything about them. Monty’s filtering of the ‘bad’ choices helps us because now your choices are between a random guess (your original choice) and the best out of the others (the other door left unopened).[3]
+
+**Answer:** Always switch doors.
+
+&nbsp;
+
+Still not convinced? Let’s look at it in a more intuitive way.
+
+<img src="https://static.wikia.nocookie.net/game-theory/images/6/6a/Monty_Hall%2C_Plinko%2C_and_Probability.jpg/revision/latest/scale-to-width-down/1000?cb=20160809222109" width="100%" height="100%"/>
+
+Given the same type of problem Monty Hall shows you 100 doors instead of 3 doors. You are now asked to choose a door. Assuming you choose door number 1, Monty Hall opens 98 doors which he knows do not have prizes or behind them are goats. You are now left behind with two doors, the door you chose and the one that Monty Hall did not open. 
+
+Now given the same question, will you switch? Well, you should! Initially you had a 1/100 chance of getting the prize, but after eliminating the other 98 doors, switching to the other door will give you a 99/100 chance of winning.
+
+
+**Why you should switch**
+
+Switching would give you higher odds of winning. Your initial chances of winning are always 1/100 (depending on the number of doors, in this case it's 100). Even if Monty Hall opens the doors he knows does not have the prize, switching doors will always give you higher odds of winning since the odds of winning (when switching. 99/100) does not change.
+
+</font>
+
+## PCSO Ultra Lotto
+
+
+## Reference
+
+[1] “Monty Hall Problem,” Brilliant Math & Science Wiki. [Online]. Available: https://brilliant.org/wiki/monty-hall-problem/#:~:text=The%20Monty%20Hall%20problem%20is,to%20choose%20between%20three%20doors. [Accessed: 27-Jun-2022]. 
+
+[2] Steven Pinker, “Why you should always switch: The monty hall problem (finally) explained - by Steven Pinker,” Behavioral Scientist, 29-Oct-2021. [Online]. Available: https://behavioralscientist.org/steven-pinker-rationality-why-you-should-always-switch-the-monty-hall-problem-finally-explained/. [Accessed: 27-Jun-2022]. 
+
+[3] “Understanding the monty hall problem,” BetterExplained. [Online]. Available: https://betterexplained.com/articles/understanding-the-mo. [Accessed: 27-Jun-2022]. 
