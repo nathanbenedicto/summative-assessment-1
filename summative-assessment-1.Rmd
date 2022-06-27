@@ -13,47 +13,46 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+```{=html}
 <style>
 body {
 text-align: justify}
-</style> 
-
+</style>
+```
 ## Monty Hall
 
 <font size="4">
 
 <img src="https://miro.medium.com/max/810/0*kfKR-PXmsaWdvtZC.jpg" width="100%" height="100%"/>
 
-&nbsp;
+ 
 
-The Monty Hall problem is a paradoxical problem in conditional probability and reasoning using Bayes' theorem [1]. The problem is named after the original host Monty Hall. From the famous television game show from the 1950s to 1980s, Let’s Make a Deal [2] 
+The Monty Hall problem is a paradoxical problem in conditional probability and reasoning using Bayes' theorem [1]. The problem is named after the original host Monty Hall. From the famous television game show from the 1950s to 1980s, Let's Make a Deal [2]
 
 To understand how the Monty Hall problem works, let's look how it is set up:
 
 <img src="https://static.tvtropes.org/pmwiki/pub/images/ao5z6.png" width="100%" height="100%"/>
 
-Imagine you are on a gameshow. There are 3 doors, behind which are two goats and a car.
-You pick a door (call it door 1), but you do not open it. The game show host opens one of the other two doors (doors 2 and 3) and reveals a goat.
+Imagine you are on a gameshow. There are 3 doors, behind which are two goats and a car. You pick a door (call it door 1), but you do not open it. The game show host opens one of the other two doors (doors 2 and 3) and reveals a goat.
 
+**Question:** Do you stick with door A, which was your original guess, or switch to the unopened door?
 
-**Question:** Do you stick with door A, which was your original guess, or switch to the unopened door? 
+One may think that the odds are 50-50, but if you switch doors, you'll win ⅔ of the time!
 
-One may think that the odds are 50-50, but if you switch doors, you’ll win ⅔ of the time!
-
-If you stick with your first choice, you can’t improve your chances. Remember that two choices are only 50-50 if it’s random and you don’t know anything about them. Monty’s filtering of the ‘bad’ choices helps us because now your choices are between a random guess (your original choice) and the best out of the others (the other door left unopened).[3]
+If you stick with your first choice, you can't improve your chances. Remember that two choices are only 50-50 if it's random and you don't know anything about them. Monty's filtering of the 'bad' choices helps us because now your choices are between a random guess (your original choice) and the best out of the others (the other door left unopened).[3]
 
 **Answer:** Always switch doors.
 
-&nbsp;
+ 
 
-Still not convinced? Let’s look at it in a more intuitive way.
+Still not convinced? Let's look at it in a more intuitive way.
 
 <img src="https://static.wikia.nocookie.net/game-theory/images/6/6a/Monty_Hall%2C_Plinko%2C_and_Probability.jpg/revision/latest/scale-to-width-down/1000?cb=20160809222109" width="100%" height="100%"/>
 
-Given the same type of problem Monty Hall shows you 100 doors instead of 3 doors. You are now asked to choose a door. Assuming you choose door number 1, Monty Hall opens 98 doors which he knows do not have prizes or behind them are goats. You are now left behind with two doors, the door you chose and the one that Monty Hall did not open. 
+Given the same type of problem Monty Hall shows you 100 doors instead of 3 doors. You are now asked to choose a door. Assuming you choose door number 1, Monty Hall opens 98 doors which he knows do not have prizes or behind them are goats. You are now left behind with two doors, the door you chose and the one that Monty Hall did not open.
 
 Now given the same question, will you switch? Well, you should! Initially you had a 1/100 chance of getting the prize, but after eliminating the other 98 doors, switching to the other door will give you a 99/100 chance of winning.
-
 
 **Why you should switch**
 
@@ -63,11 +62,40 @@ Switching would give you higher odds of winning. Your initial chances of winning
 
 ## PCSO Ultra Lotto
 
+<img src="https://i.postimg.cc/d3g5j6Tt/intro.png" width="100%" height="100%"/>
+
+**Intro to PCSO** The PCSO, or the Philippine Charity Sweepstakes Office, is a government agency that is responsible for managing and providing funds for other government agencies and activities such as health programs, medical assistance and services. They have organized various programs, such as the lottery games and sweepstakes, for the general public to take part in. There are 6-pick number lottery games that the PCSO manages, which include the Lotto 6/42, MegaLotto 6/45, SuperLotto 6/49 GrandLotto 6/55 and finally, the UltraLotto 6/58, which has a grand prize of 50 million Philippine pesos.
+
+<img src="https://i.postimg.cc/SQP14StF/658.png" width="100%" height="100%"/>
+
+**What is the Ultra Lotto 6/58?** The PCSO hosts numerous games daily; however, the one we are interested in is the Ultra Lotto 6/58.
+
+The Ultra Lotto 6/58 is considered the most prominent and latest game hosted by the PCSO. The name "6/58" suggests six unique numbers from 1 to 58 that the player must choose and indicate on their ticket, which is sold for 20 pesos each [1]. This game brags the largest minimum guaranteed jackpot of 50 million pesos. The drawing of the winning combination happens every Tuesday, Friday, and Sunday in a large container with 58 numbered ping pong balls. The first six numbers drawn by the PCSO officials are the winning combination in no particular order.
+
+**Probability of Winning the 6/58** In order to win the UltraLotto 6/58, one must have the correct combination of six numbers that would be given on either the Tuesday, Friday, or Sunday of the week. This lotto would include the numbers 1-58, where in numbers already drawn cannot be drawn again. Therefore, the probability of getting a winning combination of numbers can be expressed by the Combination Formula [2]:
+
+<img src="https://i.postimg.cc/G277HdLD/nCr.png" width="100%" height="100%"/>
+
+We are able to find the possible combinations of 6 numbers that can be formed from the collection of 58 unique numbers. In other words, "58C6" or "58 Choose 6"
+
+The result is --- 40,475,358 possible combinations all in all. Therefore, an individual would have a 1 in 40,475,358 chance of winning the jackpot.
+
+**How much would it cost to cover all possible combinations?**
+
+<img src="https://i.postimg.cc/T1KkbF14/cost.png" width="100%" height="100%"/>
+
+Since each Ultra Lotto 6/58 ticket costs 20 pesos each, we can multiply that to the total number of possible combinations of 40,475,358 to get 809,507,160 pesos.
+
+Since the grand prize is assured at a minimum of 50 million pesos, attempting to cover all of the possible number combinations for the 6/58 will, therefore, incur a massive loss on the bettor.
+
+If someone else happens to win the jackpot as well, the loss will be even greater, as the 50 million peso prize will be divided equally among the winners.
+
+To find out what's the latest draw, click the link below and view the latest 6/58 lotto results. <https://www.lottopcso.com/6-58-lotto-result>
 
 ## Reference
 
-[1] “Monty Hall Problem,” Brilliant Math & Science Wiki. [Online]. Available: https://brilliant.org/wiki/monty-hall-problem/#:~:text=The%20Monty%20Hall%20problem%20is,to%20choose%20between%20three%20doors. [Accessed: 27-Jun-2022]. 
+[1] "Monty Hall Problem," Brilliant Math & Science Wiki. [Online]. Available: <https://brilliant.org/wiki/monty-hall-problem/#>:\~:text=The%20Monty%20Hall%20problem%20is,to%20choose%20between%20three%20doors. [Accessed: 27-Jun-2022].
 
-[2] Steven Pinker, “Why you should always switch: The monty hall problem (finally) explained - by Steven Pinker,” Behavioral Scientist, 29-Oct-2021. [Online]. Available: https://behavioralscientist.org/steven-pinker-rationality-why-you-should-always-switch-the-monty-hall-problem-finally-explained/. [Accessed: 27-Jun-2022]. 
+[2] Steven Pinker, "Why you should always switch: The monty hall problem (finally) explained - by Steven Pinker," Behavioral Scientist, 29-Oct-2021. [Online]. Available: <https://behavioralscientist.org/steven-pinker-rationality-why-you-should-always-switch-the-monty-hall-problem-finally-explained/>. [Accessed: 27-Jun-2022].
 
-[3] “Understanding the monty hall problem,” BetterExplained. [Online]. Available: https://betterexplained.com/articles/understanding-the-mo. [Accessed: 27-Jun-2022]. 
+[3] "Understanding the monty hall problem," BetterExplained. [Online]. Available: <https://betterexplained.com/articles/understanding-the-mo>. [Accessed: 27-Jun-2022].
