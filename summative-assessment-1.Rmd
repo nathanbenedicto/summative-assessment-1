@@ -76,7 +76,7 @@ Now given the same question, will you switch? Well, you should! Initially you ha
 
 
 
-## PCSO Ultra Lotto
+## The PCSO Ultra Lotto 6/58
 
 <img src="https://i.postimg.cc/d3g5j6Tt/intro.png" width="100%" height="100%"/>
 
@@ -89,11 +89,11 @@ Now given the same question, will you switch? Well, you should! Initially you ha
 
 ### What is the Ultra Lotto 6/58?
 
->The PCSO hosts numerous games daily; however, the one we are interested in is the Ultra Lotto 6/58. The Ultra Lotto 6/58 is considered the most prominent and latest game hosted by the PCSO. The name "6/58" suggests six unique numbers from 1 to 58 that the player must choose and indicate on their ticket, which is sold for 20 pesos each [1]. This game brags the largest minimum guaranteed jackpot of 50 million pesos. The drawing of the winning combination happens every Tuesday, Friday, and Sunday in a large container with 58 numbered ping pong balls. The first six numbers drawn by the PCSO officials are the winning combination in no particular order.
+>The PCSO hosts numerous games daily; however, the one we are interested in is the *Ultra Lotto 6/58*. The *Ultra Lotto 6/58* is considered the most prominent and latest game hosted by the PCSO. The name "6/58" suggests six unique numbers from 1 to 58 that the player must choose and indicate on their ticket, which is sold for 20 pesos each [1]. This game brags the largest minimum guaranteed jackpot of 50 million pesos. The drawing of the winning combination happens every Tuesday, Friday, and Sunday in a large container with 58 numbered ping pong balls. The first six numbers drawn by the PCSO officials are the winning combination in no particular order.
 
 ### Probability of Winning the 6/58 
 
->In order to win the UltraLotto 6/58, one must have the correct combination of six numbers that would be given on either the Tuesday, Friday, or Sunday of the week. This lotto would include the numbers 1-58, where in numbers already drawn cannot be drawn again. Therefore, the probability of getting a winning combination of numbers can be expressed by the Combination Formula [2]:
+>In order to win the *Ultra Lotto 6/58*, one must have the correct combination of six numbers that would be given on either the Tuesday, Friday, or Sunday of the week. This lotto would include the numbers 1-58, where in numbers already drawn cannot be drawn again. Therefore, the probability of getting a winning combination of numbers can be expressed by the Combination Formula [2]:
 
 <img src="https://i.postimg.cc/G277HdLD/nCr.png" width="100%" height="100%"/>
 
