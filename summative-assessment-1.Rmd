@@ -83,17 +83,17 @@ Now given the same question, will you switch? Well, you should! Initially you ha
 
 ### Intro to PCSO
 
->The PCSO, or the Philippine Charity Sweepstakes Office, is a government agency that is responsible for managing and providing funds for other government agencies and activities such as health programs, medical assistance and services. They have organized various programs, such as the lottery games and sweepstakes, for the general public to take part in. There are 6-pick number lottery games that the PCSO manages, which include the Lotto 6/42, MegaLotto 6/45, SuperLotto 6/49 GrandLotto 6/55 and finally, the UltraLotto 6/58, which has a grand prize of 50 million Philippine pesos.
+>The PCSO, or the Philippine Charity Sweepstakes Office, is a government agency that is responsible for managing and providing funds for other government agencies and activities such as health programs, medical assistance and services. They have organized various programs, such as the lottery games and sweepstakes, for the general public to take part in. There are 6-pick number lottery games that the PCSO manages, which include the Lotto 6/42, MegaLotto 6/45, SuperLotto 6/49 GrandLotto 6/55 and finally, the UltraLotto 6/58, which has a grand prize of 50 million Philippine pesos [4].
 
 <img src="https://i.postimg.cc/SQP14StF/658.png" width="100%" height="100%"/>
 
 ### What is the Ultra Lotto 6/58?
 
->The PCSO hosts numerous games daily; however, the one we are interested in is the *Ultra Lotto 6/58*. The *Ultra Lotto 6/58* is considered the most prominent and latest game hosted by the PCSO. The name "6/58" suggests six unique numbers from 1 to 58 that the player must choose and indicate on their ticket, which is sold for 20 pesos each [1]. This game brags the largest minimum guaranteed jackpot of 50 million pesos. The drawing of the winning combination happens every Tuesday, Friday, and Sunday in a large container with 58 numbered ping pong balls. The first six numbers drawn by the PCSO officials are the winning combination in no particular order.
+>The PCSO hosts numerous games daily; however, the one we are interested in is the *Ultra Lotto 6/58*. The *Ultra Lotto 6/58* is considered the most prominent and latest game hosted by the PCSO. The name "6/58" suggests six unique numbers from 1 to 58 that the player must choose and indicate on their ticket, which is sold for 20 pesos each [5]. This game brags the largest minimum guaranteed jackpot of 50 million pesos. The drawing of the winning combination happens every Tuesday, Friday, and Sunday in a large container with 58 numbered ping pong balls. The first six numbers drawn by the PCSO officials are the winning combination in no particular order.
 
 ### Probability of Winning the 6/58 
 
->In order to win the *Ultra Lotto 6/58*, one must have the correct combination of six numbers that would be given on either the Tuesday, Friday, or Sunday of the week. This lotto would include the numbers 1-58, where in numbers already drawn cannot be drawn again. Therefore, the probability of getting a winning combination of numbers can be expressed by the Combination Formula [2]:
+>In order to win the *Ultra Lotto 6/58*, one must have the correct combination of six numbers that would be given on either the Tuesday, Friday, or Sunday of the week. This lotto would include the numbers 1-58, where in numbers already drawn cannot be drawn again. Therefore, the probability of getting a winning combination of numbers can be expressed by the Combination Formula [6]:
 
 <img src="https://i.postimg.cc/G277HdLD/nCr.png" width="100%" height="100%"/>
 
@@ -119,8 +119,14 @@ If someone else happens to win the jackpot as well, the loss will be even greate
 
 ## Reference
 
-[1] "Monty Hall Problem," Brilliant Math & Science Wiki. [Online]. Available: <https://brilliant.org/wiki/monty-hall-problem/#>:\~:text=The%20Monty%20Hall%20problem%20is,to%20choose%20between%20three%20doors. [Accessed: 27-Jun-2022].
+[1] "Monty Hall Problem," Brilliant Math & Science Wiki. [Online]. Available: <https://brilliant.org/wiki/monty-hall-problem/#:\~:text=The%20Monty%20Hall%20problem%20is,to%20choose%20between%20three%20doors>. [Accessed: 27-Jun-2022].
 
 [2] Steven Pinker, "Why you should always switch: The monty hall problem (finally) explained - by Steven Pinker," Behavioral Scientist, 29-Oct-2021. [Online]. Available: <https://behavioralscientist.org/steven-pinker-rationality-why-you-should-always-switch-the-monty-hall-problem-finally-explained/>. [Accessed: 27-Jun-2022].
 
 [3] "Understanding the monty hall problem," BetterExplained. [Online]. Available: <https://betterexplained.com/articles/understanding-the-mo>. [Accessed: 27-Jun-2022].
+
+[4] “About PCSO,” Philippine Charity Sweepstakes Office. [Online]. Available: <https://www.pcso.gov.ph/About/About.aspx>. [Accessed: 27-Jun-2022].
+
+[5] “Philippine Charity Sweepstakes Office - Ultra Lotto,” Philippine Charity Sweepstakes Office, 2017. [Online]. Available: <https://www.pcso.gov.ph/Games/Lotto/UltraLotto658.aspx>. [Accessed: 27-Jun-2022].
+
+[6] “Combinations and permutations,” Math is Fun Advanced. [Online]. Available: <https://www.mathsisfun.com/combinatorics/combinations-permutations.html>. [Accessed: 27-Jun-2022].
